@@ -8,7 +8,7 @@ from scipy.interpolate import interp1d
 files = [x.rstrip() for x in fi.input(sys.argv[1])]
 fi.close()
 
-ages = np.arange(15.0, 50.1, 5.0)*1.0e6
+ages = np.arange(20.0, 30.1, 1.0)*1.0e6
 masses = []
 
 for age in ages:
